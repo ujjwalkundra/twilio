@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say voice="alice">Good morning Abhilasha.I'm calling from Malibu Town. Hope you ar doing great. I would like to tell about an interesting activity going on at W.W. 33 First floor. Would you like to ear about it? </Say>
+
+
+<Gather input="speech" timeout="5" action="http://customervoice.epizy.com/twilio/customer_resp.xml">
+<Say>Please say yes or no.</Say>
+</Gather>
+<Say>We didn't receive any input. Goodbye!</Say>
+
+</Response>
